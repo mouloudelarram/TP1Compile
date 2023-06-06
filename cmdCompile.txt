@@ -1,0 +1,12 @@
+wc.l        lex wc.l
+
+c'est comme commande "wc" de unix / linux
+
+
+>lex wc.l
+    -> fichier lex.yy.c
+>gcc lex.yy.c -o wc
+    -> exec wc
+>./wc wc.txt
+
+Ctl D == EOF
